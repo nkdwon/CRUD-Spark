@@ -1,14 +1,9 @@
-# CRUD-Spark
+# CRUD Locadora de Filmes com Spark e PostgreSQL
 
-Desenvolvido durante as aulas de Trabalho Interdisciplinar 2: BackEnd  na faculdade PUC Minas
-
-<h1 align="center">Programa em Java utilizando o ambiente Eclipse para manipulação de dados no SGBD relacional PostgreSQL</h1>
+Desenvolvido durante as aulas de Trabalho Interdisciplinar 2: BackEnd na faculdade PUC Minas.
 
 <p align="center">
-Um CRUD de uma locadora de jogos feito em Java com integração do PostgreSQL através do framework Maven.
-O usuário pode inserir, listar, atualizar ou excluir um jogo de sua escolha na locadora através do console na IDE
- <br/>
-
+Um CRUD para gerenciar filmes em uma locadora, desenvolvido em Java com integração ao PostgreSQL. Utiliza o Spark Framework para criar rotas HTTP e um formulário HTML para manipulação de dados.
 </p>
 
 <p align="center">
@@ -18,30 +13,62 @@ O usuário pode inserir, listar, atualizar ou excluir um jogo de sua escolha na 
 
 ---
 
-<br>
-
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- Java
-- Maven
-- PostgreSQL e pgAdmin 4
-- IDE Eclipse
-- Git e Github
+- **HTML & CSS**: Interface do formulário para manipulação dos dados.
+- **Java**: Lógica de backend para as operações CRUD.
+- **Maven**: Gerenciamento de dependências do projeto.
+- **Spark**: Framework para criação das rotas HTTP.
+- **PostgreSQL e pgAdmin 4**: Banco de dados relacional utilizado para armazenar as informações dos filmes.
+- **Eclipse**: IDE utilizada para desenvolvimento.
+- **Git e Github**: Controle de versão e armazenamento do projeto.
 
 ## 📁 Projeto
 
-- Para o funcionamento total do projeto, é necessário que você baixe o projeto e tenha a versão JavaSE-22, além do PostgreSQL e pgAdmin 4, e é claro, a IDE Eclipse. Quanto ao Maven, a própria IDE já inclui.
+Para o funcionamento completo do projeto, siga os passos abaixo:
 
-- Se não souber como instalar e/ou não tiver JDK( Java Development Kit) em seu computador, consulte este [vídeo](https://www.youtube.com/watch?v=sNFii-cvNz0) e o [site](https://www.oracle.com/br/java/technologies/downloads/) para saber mais.
+### Pré-requisitos
+- JavaSE-22
+- PostgreSQL e pgAdmin 4
+- IDE Eclipse com Maven integrado
 
-- Para o PostgreSQL e o pgAdmin4, assita a este [vídeo](https://www.youtube.com/watch?v=UbX-2Xud1JA&t=160s) e acesse o site [aqui](https://www.postgresql.org/download/).
+### Instalação
+1. **Clonar o repositório**:
+   
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+2. Configurar o banco de dados:
+- Siga as instruções deste [vídeo](https://www.youtube.com/watch?v=UbX-2Xud1JA&t=160s) para instalar PostgreSQL e pgAdmin4.
+- Crie uma tabela no PostgreSQL conforme a estrutura do projeto.
+3. Rodar o projeto:
+- Abra o projeto no Eclipse e execute a classe principal.
+- Acesse o formulário HTML para testar as funcionalidades.
 
-- Já para instalar o Eclipse, consulte este [vídeo](https://www.youtube.com/watch?v=1-TXv0D5bcg). Se tiver dúvidas ou mais interesse em aprender sobre a ferramenta, acesse o site [aqui](https://www.eclipse.org/).
+### Instruções adicionais
+- **Instalação da JDK**: Se você não possui o JDK (Java Development Kit) instalado, consulte este [vídeo](https://www.youtube.com/watch?v=sNFii-cvNz0) e visite o [site oficial](https://www.oracle.com/br/java/technologies/downloads/) para obter mais informações sobre como instalar a JDK.
+- Instalação do PostgreSQL e pgAdmin 4: Para configurar o banco de dados PostgreSQL e pgAdmin 4, você pode seguir este [vídeo](https://www.youtube.com/watch?v=UbX-2Xud1JA&t=160s) para uma orientação passo a passo. O download pode ser feito diretamente do [site oficial](https://www.postgresql.org/download/).
+- Instalação do Eclipse: Caso ainda não tenha o Eclipse instalado, siga as instruções deste [vídeo](https://www.youtube.com/watch?v=1-TXv0D5bcg). Para mais informações sobre a IDE, acesse o [site oficial](https://www.eclipse.org/).
+- Documentação do Spark Framework: Caso tenha mais dúvidas sobre o Spark Framework ou queira consultar a versão mais recente e suas dependências, confira [aqui](https://central.sonatype.com/?smo=true).
+
+### Vídeos de apoio
+O projeto foi desenvolvido durante as aulas de Trabalho Interdisciplinar 2: BackEnd, e segue as instruções dos seguintes vídeos:
+
+#### 1. [Spark Framework](https://www.youtube.com/watch?v=8PRhIU7oR80)
+   Explicação sobre o funcionamento do Spark Framework para criação de rotas HTTP.
+
+#### 2. [Explicação do Exercício](https://www.youtube.com/watch?v=N49YfGdyHx4)
+   Orientações gerais sobre o exercício de CRUD utilizando Java e PostgreSQL.
+
+#### 3. [Exemplo - WS03 Produto Service](https://www.youtube.com/watch?v=kwDxesKQQCY)
+   Exemplo prático de como implementar um CRUD completo com Java e Spark Framework.
+
+
 
 ## 📝 Licença
 
 Esse projeto está sob a licença MIT.
 
 ---
+  
