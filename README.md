@@ -3,7 +3,7 @@
 <h4 align="center">Desenvolvido durante as aulas de Trabalho Interdisciplinar 2: BackEnd na faculdade PUC Minas.</h4>
 
 <p align="center">
-Um CRUD para gerenciar filmes em uma locadora, desenvolvido em Java com integração ao PostgreSQL. <br> Utiliza o Spark Framework para criar rotas HTTP e um formulário HTML para manipulação de dados.
+Um CRUD para gerenciar filmes em uma locadora, desenvolvido em Java com integração ao PostgreSQL. <br> Utiliza o Spark Framework para criar rotas HTTP e um formulário HTML para manipulação de dados
 </p>
 
 <p align="center">
